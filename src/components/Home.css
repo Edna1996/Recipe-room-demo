@@ -1,0 +1,20 @@
+.Home {
+    flex-grow: 1;
+    background-image: url('/home/student/recipe/recipe-room/src/components/images/photo-1458253756247-1e4ed949191b.jpeg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000bd;
+    background-blend-mode: hue;
+    color: #fff;
+}
+
+.Home h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.Home h2 {
+    font-size: 4rem;
+    font-weight: 500;
+}

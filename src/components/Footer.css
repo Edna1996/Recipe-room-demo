@@ -1,0 +1,29 @@
+.footer-container {
+	position: fixed; /* changed from absolute */
+	bottom: 0;
+	left: 0; /* added left and right properties */
+	right: 0;
+	width: 100%;
+	background-color: #90cdf4;
+	padding: 24px;
+  }
+  
+  .logo-container,
+  .contact-container,
+  .copy-container {
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .logo-container {
+	margin-right: 32px;
+  }
+  
+  .copy-container {
+	margin-left: 32px;
+  }
+  
